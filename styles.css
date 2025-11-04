@@ -2,45 +2,56 @@ html {
     background-color: black;
     color: white;
     margin: 0px;
+    font-family: "DM Sans";
 }
 
 header {
     background-image: url(Assets/image-header.png);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 8%;
 }
 
 body {
     margin: 0;
 }
 
-
-
 nav {
     display: block;
     margin-left: 70px;
     padding-top: 35px;
-}
+    margin-bottom: 155px;
 
-nav ul {
+    ul {
     display: inline;
     float: inline-end;
     margin-right: 90px;
 }
 
-nav li {
+    li {
     display: inline;
     font-family: "DM Sans";
     font-size: 18px;
     padding-left: 30px;
 }
+a {
+text-decoration: none;
+    font-family: "DM Sans";
+    font-size: 18px;
+    padding-left: 30px;
+    color: white;
+}
+
+}
 
 /* partie nav end */
+
 
 h1 {
     font-family: "DM Sans";
     font-size: 160px;
-        line-height: 90px;
+    line-height: 90px;
+    font-weight: 400;
 }
 
 .h1_2 {
@@ -50,7 +61,7 @@ h1 {
 }
 
 .cover {
-    width: 608px;
+    width: 565px;
     margin: auto;
 }
 
@@ -59,30 +70,255 @@ h1 {
     font-size: 28px;
     font-weight: 300;
     text-align: left;
+    margin-top: -48px;
+    margin-bottom: 50px;
+    width: 350px;
 }
 
 .desc_h2 {
     font-weight: bold;
     display: block;
 }
+
 .buttons {
-    
-}
-.buttons a:first-child {
+
+    a:first-child {
     background-color: black;
     color: white;
-    padding: 10px 25px;
+    padding: 10px 32px;
+    border-radius: 10px;
+    font-family: "DM Sans";
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 13px;
+}
+    a:last-child {
+    background-color: white;
+    color: black;
+    padding: 10px 32px;
     border-radius: 10px;
     font-family: "DM Sans";
     text-decoration: none;
     font-weight: bold;
 }
-.buttons a:last-child {
+
+}
+
+/* partie header end */
+
+.main_first {
+    width: 870px;
+    margin: 90px auto;
+    display: block;
+
+        h2 {
+    font-family: "DM Sans";
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 54px;
+}
+    p {
+    font-family: "DM Sans";
+    font-size: 20px;
+}
+}
+
+.lineup {
+    margin: 95px auto;
+
+    h2 {
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 36px;
+    font-weight: bold;
+}
+
+ul {
+    font-family: "DM Sans";
+    font-size: 28px;
+    font-weight: normal;
+    list-style: none;
+    width: 300px;
+    margin: auto auto auto 254px;
+}
+
+span {
+    font-family: "DM Sans";
+    font-size: 28px;
+    font-weight: bold;
+}
+a {
+    display: block;
     background-color: white;
     color: black;
-    padding: 10px 25px;
+    padding: 10px 32px;
     border-radius: 10px;
     font-family: "DM Sans";
     text-decoration: none;
     font-weight: bold;
+    margin: auto;
+    text-align: center;
+    width: 95px;
+    margin-top: 71px;
+}
+}
+
+/* partie line up end */
+.sponsor {
+    background-image: url(Assets/banniere-logo.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: block;
+    margin: auto;
+
+    img {
+    align-items: center;
+    display: inline;
+    text-align: center;
+    margin: auto;
+}
+
+}
+
+.sponsorimg {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-left: 168px;
+    padding-top: 128px;
+}
+
+/* partie sponsor end */
+.form {
+    width: 652px;
+    text-align: left;
+    font-family: "DM Sans";
+    margin: auto;
+    line-height: 25px;
+
+    h2 {
+    text-align: center;
+}
+a {
+
+    text-align: center;
+    font-family: "DM Sans";
+    color: white;
+}
+}
+
+
+form {
+    text-align: left;
+
+    input {
+    padding: 15px 430px 15px 15px;
+    background: rgba(255, 255, 255, 0.242);
+    border: 0;
+    border-radius: 4px;
+}
+button {
+    border: 0;
+    margin: auto;
+    display: block;
+    background-color: white;
+    color: black;
+    padding: 10px 32px;
+    border-radius: 10px;
+    font-family: "DM Sans";
+    font-weight: bold;
+
+}
+div {
+    padding-bottom: 25px;
+}
+
+}
+
+label {
+    display: block;
+}
+
+.input {
+    padding: 15px 430px 120px 15px;
+}
+/* partie form - contact end */
+footer {
+    display: inline;
+}
+
+.email {
+    display: block;
+    text-align: left;
+    margin-bottom: -60px;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.news {
+    display: block;
+    text-align: right;
+    margin-right: 50px;
+}
+
+.sub {
+    display: inline;
+    button {
+    display: inline;
+}
+}
+
+.copyright {
+    display: inline;
+    background-color: white;
+    align-content: space-between;
+    font-size: 14;
+
+    .left {
+        display: inline-block;
+        background-color: white;
+        color: black;
+        padding-inline-end: 504px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: -10px;
+    }
+
+    .right {
+
+        display: inline;
+        float: right;
+        background-color: white;
+        color: black;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: -10px;
+    }
+}
+
+.ton_mail {
+    background-color: white;
+    padding: 15px 163px 15px 15px;
+}
+
+.subscribe {
+    border: 0;
+    margin: auto;
+    display: block;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 32px;
+    border-radius: 10px;
+    font-family: "DM Sans";
+    font-weight: bold;
+    border-color: white;
+    border: solid;
+
+}
+
+.news label {
+    font-size: 24px;
+    text-align: right;
+    margin-right: 358px;
+    margin-bottom: 11px;
 }

@@ -24,18 +24,20 @@
         <nav>
             <img src="Assets/logo-header.png">
             <ul>
-                <li>ACCUEIL</li>
-                <li>LINE UP</li>
-                <li>TICKET</li>
-                <li>CALENDRIER</li>
-                <li>Â PROPRO</li>
+                <li><a href="">ACCUEIL</a></li>
+                <li><a href="#lineup">LINE UP</a></li>
+                <li><a href="">TICKET</a></li>
+                <li><a href="">CALENDRIER</a></li>
+                <li><a href="#contactez">Â PROPRO</a></li>
             </ul>
         </nav>
 
         <section>
             <div class="cover">
-                <h1><span class="h1_2">URBAN NIGHT </span><span>Rap Fest</span></spanRap></h1>
-                <h2 class="desc"><span class="desc_h2">04 MAI & 05 MAI</span> <span>LYON - PARC DE GERLAND 7EME</span></h2>
+                <h1><span class="h1_2">URBAN NIGHT </span><span>Rap Fest</span></spanRap>
+                </h1>
+                <h2 class="desc"><span class="desc_h2">04 MAI & 05 MAI</span> <span>LYON - PARC DE GERLAND 7EME</span>
+                </h2>
                 <div class="buttons">
                     <a href="">BILLETERIE</a>
                     <a href="">PLUS D'INFO</a>
@@ -44,47 +46,48 @@
         </section>
 
     </header>
-
-    <!-- 6
-        <section>
+    <main>
+        <section class="main_first">
             <h2>Plongez au cœur du rythme urbain
                 avec RAPture, le festival de rap qui célèbre
                 la puissance des mots, des beats et des
                 cultures qui les inspirent.</h2>
             <p>Du 4 au 5 mai, vibrez au son des artistes les plus bouillants de la scène rap, entre
-                performances live, freestyles enflammés et rencontres inédites. 
+                performances live, freestyles enflammés et rencontres inédites.<br>
                 RAPture, c’est plus qu’un festival, c’est une immersion dans l’essence du hip-hop : des flows
-                tranchants, des basses profondes et une énergie brute qui réunit toutes les générations. 
+                tranchants, des basses profondes et une énergie brute qui réunit toutes les générations.<br>
                 Sur scène, les talents montants côtoient les légendes, pour un week-end où chaque rime fait
-                écho aux histoires de la rue, des rêves et de la liberté d’expression. 
+                écho aux histoires de la rue, des rêves et de la liberté d’expression.<br>
                 Venez vivre trois jours de pure intensité, là où la musique, la vibe et la culture rap ne font plus
                 qu’un.</p>
         </section>
         <section>
-            <img src="Assets/section-img.png">
+            <img src="Assets/section-img.png" style="    width: 98.8vw;">
         </section>
-        <section>
+        <section class="lineup" id="lineup">
             <h2>LINE UP</h2>
             <ul>
-                <li>04 MAI - OMAH LAY</li>
-                <li>04 MAI - WIZKID</li>
-                <li>04 MAI - LIL BABY</li>
-                <li>04 MAI - BURNA BOY</li>
-                <li>05 MAI - KPOINT</li>
-                <li>05 MAI - A.C</li>
-                <li>05 MAI - KEKRA</li>
-                <li>05 MAI - THEODORA</li>
+                <li><span>04 MAI</span> - OMAH LAY</li>
+                <li><span>04 MAI</span> - WIZKID</li>
+                <li><span>04 MAI</span> - LIL BABY</li>
+                <li><span>04 MAI</span> - BURNA BOY</li>
+                <li><span>05 MAI</span> - KPOINT</li>
+                <li><span>05 MAI</span> - A.C</li>
+                <li><span>05 MAI</span> - KEKRA</li>
+                <li><span>05 MAI</span> - THEODORA</li>
             </ul>
             <a>BILLETERIE</a>
         </section>
-        <section>
-            <img src="Assets/spotify.png">
-            <img src="Assets/applemusic.png">
-            <img src="Assets/uber.png">
-            <img src="Assets/deezer.png">
-            <img src="Assets/motorola.png">
+        <section class="sponsor">
+            <div class="sponsorimg">
+                <img src="Assets/spotify.png">
+                <img src="Assets/applemusic.png">
+                <img src="Assets/uber.png">
+                <img src="Assets/deezer.png">
+                <img src="Assets/motorola.png">
+            </div>
         </section>
-        <section>
+        <section class="form" id="contactez">
             <h2>CONTACTEZ NOUS</h2>
             <p>Fill out the booking form below to ask any questions, or reach out to us directly at <a
                     href="help@raptureclouds.com">help@raptureclouds.com</a> with any questions or concerns.</p>
@@ -103,27 +106,39 @@
                 </div>
                 <div>
                     <label>Message</label>
-                    <input placeholder="Message">
+                    <input placeholder="Message" class="input">
                 </div>
                 <button>CONTACT</button>
             </form>
         </section>
-    </main> -->
-    <!-- <footer>
+    </main>
+
+    <footer>
+
         <div>
-            <p>Email</p>
-            <a>help@raptureclouds.com</a>
+            <div class="email">
+                <p>Email</p>
+                <a>help@raptureclouds.com</a>
+            </div>
+
+            <form>
+                <div class="news">
+                    <div class="sub">
+                        <label>NewsLetter</label>
+                        <input placeholder="Ton Email" class="ton_mail">
+                        <button class="subscribe">SUBSCRIBE</button>
+                    </div>
+                </div>
+            </form>
         </div>
-        <form>
-            <label>NewsLetter</label>
-            <input placeholder="Ton Email">
-            <button>SUBSCRIBE</button>
-        </form>
-        <div>
-            <p>Copyright © 2025 · Rapture - Music Festival</p>
-            <p>Terms & Conditions for Event · Privacy Policy · Terms of Use</p>
+
+
+        <div class="copyright">
+            <p class="left">Copyright © 2025 · Rapture - Music Festival</p>
+            <p class="right">Terms & Conditions for Event · Privacy Policy · Terms of Use</p>
         </div>
-    </footer> -->
+
+    </footer>
 </body>
 
 </html>
