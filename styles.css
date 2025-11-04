@@ -1,0 +1,88 @@
+html {
+    background-color: black;
+    color: white;
+    margin: 0px;
+}
+
+header {
+    background-image: url(Assets/image-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+}
+
+
+
+nav {
+    display: block;
+    margin-left: 70px;
+    padding-top: 35px;
+}
+
+nav ul {
+    display: inline;
+    float: inline-end;
+    margin-right: 90px;
+}
+
+nav li {
+    display: inline;
+    font-family: "DM Sans";
+    font-size: 18px;
+    padding-left: 30px;
+}
+
+/* partie nav end */
+
+h1 {
+    font-family: "DM Sans";
+    font-size: 160px;
+        line-height: 90px;
+}
+
+.h1_2 {
+    font-family: "DM Sans";
+    font-size: 53px;
+    font-weight: medium;
+}
+
+.cover {
+    width: 608px;
+    margin: auto;
+}
+
+.desc {
+    font-family: "DM Sans";
+    font-size: 28px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.desc_h2 {
+    font-weight: bold;
+    display: block;
+}
+.buttons {
+    
+}
+.buttons a:first-child {
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-family: "DM Sans";
+    text-decoration: none;
+    font-weight: bold;
+}
+.buttons a:last-child {
+    background-color: white;
+    color: black;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-family: "DM Sans";
+    text-decoration: none;
+    font-weight: bold;
+}
